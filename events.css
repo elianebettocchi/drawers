@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-height: 100vh;
+    background-color: rgb(0,0,0,0);
+}
+
+/* Controls and Message Styles */
+
+button {
+    font-size: 100%;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 100%;
+    color: white;
+    border: white solid 1px;
+    background-color: rgb(0,0,0,0.3);
+}
+.light {
+    font-size: 100%;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 100%;
+    color: white;
+    border: solid grey 1px;
+    background-color: rgb(255,255,255,0.6);
+}
+.dark {
+    font-size: 100%;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 100%;
+    color: white;
+    border: white 0px solid;
+    background-color: rgb(0,0,0,0.3);
+}
+.a-white{
+    color: white;
+}
+#flip,
+#roll {
+    background-color: rgba(191, 0, 0, 0.5);
+}
+
+#flip:hover,
+#roll:hover {
+    background-color: red;
+}
+#flip,
+#draw {
+    background-color: rgba(191, 0, 0, 0.5);
+}
+
+#flip:hover,
+#draw:hover {
+    background-color: red;
+}
+img{
+    width: 100%;
+}
+.img2{
+    width: 90%;
+}
+.card{
+    width: 100%;
+    background-color: rgb(0,0,102,0.0);
+}
+a {
+    color: #900;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+}
