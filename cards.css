@@ -35,7 +35,7 @@ button {
     font-weight: bold;
     width: 100%;
     color: white;
-    border: 0px;
+    border: solid white 1px;
     background-color: rgb(0,0,0,0.3);
 }
 .dropdown-item{
