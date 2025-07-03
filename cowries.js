@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let rolledValue = Math.floor(Math.random() * 17)
         document.getElementById('cowries').src = `cowries/${rolledValue}.png`
         // Display the result of the roll
-        document.getElementById('message').textContent = `Open: ${rolledValue}`
+        document.getElementById('message').textContent = `Abertos | Open: ${rolledValue}`
 
     })
 
